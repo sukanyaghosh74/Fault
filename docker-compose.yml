@@ -1,0 +1,9 @@
+﻿version: '3'
+
+services:
+  api:
+    build: .
+    container_name: fault-api
+    restart: always
+    ports:
+      - "5000:5000"
